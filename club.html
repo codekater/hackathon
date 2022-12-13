@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Club Witlove</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recepten.html">Recepten</a></li>
+            <li><a class="active" href="club.html">Club Witlove</a></li>
+            <li><a href="inspiratie.html">Inspiratie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img class="club-banner" src="club.jpg" width="500px">
+        <h1 class="titel">Club Witlove</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit laborum assumenda fugiat odio
+            suscipit explicabo quis quos quae qui repellat mollitia eum temporibus nisi, quam, quas soluta quisquam non
+            beatae?</p>
+    </header>
+
+    <main>
+        <div class="container-club">
+            <h2>Witlove-abonnement</h2>
+            <p class="container-club-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum optio sit,
+                laudantium repellat sed
+                obcaecati
+                delectus quam distinctio deserunt, rem molestias ab! At eligendi dolor culpa vel fugiat, voluptatibus
+                quae?
+                <img class="sticker" src="ilovewitlof.png">
+            </p>
+
+
+            <form class="form">
+                <label>Naam:</label>
+                <input type="name" id="naam">
+
+                <label>Email:</label>
+                <input type="email" id="email">
+
+                <label>Telefoonnummer:</label>
+                <input type="tel" id="telefoon">
+
+                <label>Straat:</label>
+                <input type="text" id="straat">
+
+                <label>Huisnummer:</label>
+                <input type="number" id="nummer">
+
+                <label>Postcode:</label>
+                <input type="text" class="postcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}">
+
+                <p>Hoe vaak wil je de witlove-box ontvangen?</p>
+                <div class="radio">
+                    <input type="radio" id="1pmnd" name="abonnementsvorm" value="1 keer per maand">
+                    <label for="1pmnd">1 keer per maand</label>
+                    <input type="radio" id="2pmnd" name="abonnementsvorm" value="om de week">
+                    <label for="1pmnd">om de week</label>
+                    <input type="radio" id="1pwk" name="abonnementsvorm" value="1 keer per week">
+                    <label for="1pmnd">elke week!</label>
+                </div>
+                <p>Ik hou van witlof:</p>
+                <div class="checkbox">
+                    <input type="checkbox" id="ja" name="ilovewitlof" value="ja">
+                    <label for="ja">Ja</label>
+                    <input class="checkbox" type="checkbox" id="nee" name="ilovewitlof" value="nee">
+                    <label for="nee">Ja, natuurlijk!</label>
+                </div>
+                <button class="button">Bestel</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="">Volg ons</a></li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>
